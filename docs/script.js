@@ -13,15 +13,15 @@ document.getElementById("calculate").addEventListener("click", async function ()
 
     try {
         // Make an asynchronous request to fetch advice data
-        const response = await fetch('http://localhost:3000/advice'); // Assuming advice is available at this endpoint
+        const response = await fetch('http://localhost:3000/advice'); // Replace with your JSON server URL
         if (!response.ok) {
             throw new Error('Failed to fetch advice data');
         }
         const adviceData = await response.json();
 
         // Access advice data from the fetched JSON object
-        const advice = adviceData[bmiCategory];
-        const personalizedMessage = `Dear ${firstName}, your BMI is ${bmi.toFixed(2)}, which falls into the category of ${bmiCategory}. ${advice}`;
+        const advice = adviceData.find((item) => item.category === bmiCategory);
+        const personalizedMessage = `Dear ${firstName}, your BMI is ${bmi.toFixed(2)}, which falls into the category of ${bmiCategory}. ${advice.message}`;
 
         document.getElementById("result").classList.remove("hidden");
         document.getElementById("resultMessage").textContent = personalizedMessage;
