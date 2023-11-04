@@ -12,8 +12,9 @@ document.getElementById("calculate").addEventListener("click", async function ()
     const bmiCategory = getBMICategory(bmi);
 
     try {
-        // Make an asynchronous request to fetch advice data
-        const response = await fetch('http://localhost:3000/advice'); // Replace with your JSON server URL
+        // Make an asynchronous request to fetch advice data from the raw content URL
+        const response = await fetch('https://github.com/Ben1464/Phase-1-project/blob/master/db.json');
+
         if (!response.ok) {
             throw new Error('Failed to fetch advice data');
         }
