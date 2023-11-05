@@ -20,7 +20,7 @@ document.getElementById("calculate").addEventListener("click", async function ()
         }
         const adviceData = await response.json();
 
-        // Access advice data from the fetched JSON object
+        //To Access advice data from the fetched JSON object
         const advice = adviceData.find((item) => item.category === bmiCategory);
         const personalizedMessage = `Dear ${firstName}, your BMI is ${bmi.toFixed(2)}, which falls into the category of ${bmiCategory}. ${advice.message}`;
 
