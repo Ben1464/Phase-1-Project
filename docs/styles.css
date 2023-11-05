@@ -127,3 +127,8 @@ button:hover {
 .hidden {
     display: none;
 }
+span{
+    color: #00aaff;
+    font-style: italic;
+    font-weight: bold;
+}
