@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image:url(/images/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-image: url(/images/brooke-lark-08bOYnH_r_E-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,18 +84,21 @@ button:hover {
 
 #result {
     margin-top: 20px;
+    background-color: #1d1d1d; /* Background color for the result container */
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .result-message {
-    background-color: #1d1d1d;
+    background-color: #00aaff; /* Background color for the advice message */
     padding: 18px;
     border-radius: 8px;
     font-size: 20px;
-    color: #00aaff;
+    color: #ffffff;
 }
 
 #privacy-policy {
-    background-color: #1d1d1d;
+    background-color: #1d1d1d; /* Background color for the privacy policy container */
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
