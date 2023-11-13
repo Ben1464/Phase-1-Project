@@ -18,7 +18,7 @@ document.getElementById("calculate").addEventListener("click", async function ()
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ firstName, height, weight, bmi, bmiCategory }),
+            body: JSON.stringify({ user: { name: firstName, height, bmi }, bmiCategory }),
         });
 
         if (!userDataResponse.ok) {
