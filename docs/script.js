@@ -13,7 +13,7 @@ document.getElementById("calculate").addEventListener("click", async function ()
 
     try {
         // Store user data in the JSON server
-        const userDataResponse = await fetch('http://localhost:3000/users', {
+        const userDataResponse = await fetch('https://my-json-server.typicode.com/Ben1464/Phase-1-project/user', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -26,7 +26,7 @@ document.getElementById("calculate").addEventListener("click", async function ()
         }
 
         // Fetch advice data from the JSON server
-        const adviceResponse = await fetch('http://localhost:3000/advice');
+        const adviceResponse = await fetch('https://my-json-server.typicode.com/Ben1464/Phase-1-project/advice');
         if (!adviceResponse.ok) {
             throw new Error('Failed to fetch advice data');
         }
