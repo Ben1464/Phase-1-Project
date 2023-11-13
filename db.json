@@ -1,21 +1,25 @@
 {
-  "user":[],
-    "advice": [
-      {
-        "category": "Underweight",
-        "message": "Capitalize on increasing your calorie intake through nutrient-dense, balanced meals, and regular strength training while seeking guidance from a healthcare professional for a safe and sustainable approach to weight gain"
-      },
-      {
-        "category": "Normal Weight",
-        "message": "Maintain your current weight by following a balanced diet, staying physically active, and prioritizing overall health and well-being. Regular exercise, a diet rich in nutrients, and healthy lifestyle choices are essential for long-term health maintenance"
-      },
-      {
-        "category": "Overweight",
-        "message": "Aim to achieve and maintain a healthy weight by adopting a balanced diet, increasing physical activity, and making lifestyle changes that promote long-term health. This may involve calorie control, portion management, regular exercise, and consulting with healthcare professionals or registered dietitians to create a personalized weight management plan"
-      },
-      {
-        "category": "Obese",
-        "message": "Prioritize significant weight loss and overall health improvement. Implement a carefully managed, reduced-calorie diet, engage in regular physical activity, and seek ongoing support from healthcare professionals, including registered dietitians and physicians. Lifestyle changes, sustainable dietary choices, and a commitment to long-term health are essential in managing obesity"
-      }
-    ]
-  }
+  "user": {
+    "name": "",
+    "height": 0,
+    "bmi": 0
+  },
+  "advice": [
+    {
+      "category": "Underweight",
+      "message": "Capitalize on increasing your calorie intake through nutrient-dense, balanced meals, and regular strength training while seeking guidance from a healthcare professional for a safe and sustainable approach to weight gain"
+    },
+    {
+      "category": "Normal Weight",
+      "message": "Maintain your current weight by following a balanced diet, staying physically active, and prioritizing overall health and well-being. Regular exercise, a diet rich in nutrients, and healthy lifestyle choices are essential for long-term health maintenance"
+    },
+    {
+      "category": "Overweight",
+      "message": "Aim to achieve and maintain a healthy weight by adopting a balanced diet, increasing physical activity, and making lifestyle changes that promote long-term health. This may involve calorie control, portion management, regular exercise, and consulting with healthcare professionals or registered dietitians to create a personalized weight management plan"
+    },
+    {
+      "category": "Obese",
+      "message": "Prioritize significant weight loss and overall health improvement. Implement a carefully managed, reduced-calorie diet, engage in regular physical activity, and seek ongoing support from healthcare professionals, including registered dietitians and physicians. Lifestyle changes, sustainable dietary choices, and a commitment to long-term health are essential in managing obesity"
+    }
+  ]
+}
