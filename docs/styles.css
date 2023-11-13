@@ -1,3 +1,4 @@
+/*stlying for the entire body*/
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #151515, #0a0a0a);
@@ -13,7 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+/*Styling for the main container*/
 .container {
     text-align: center;
     background-color: #1d1d1d;
@@ -23,30 +24,30 @@ body {
     max-width: 500px;
     margin: 0 auto;
 }
-
+/*Styling for container hoover effect*/
 .container:hover {
     transform: scale(1.05);
 }
-
+/*Styling for the main heading*/
 h1 {
     font-size: 38px;
     margin-bottom: 20px;
     color: #00aaff;
 }
-
+/*Stlying for the input fields*/
 .input-form {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+/*Stlying for the labels*/
 label {
     font-size: 18px;
     margin: 10px 0;
     color: #00aaff;
 }
-
+/*Stlyling for the input fields */
 input {
     margin: 5px 0;
     padding: 14px; 
@@ -58,16 +59,16 @@ input {
     transition: border-color 0.3s;
     font-size: 18px; 
 }
-
+/*Styling for inputs placeholders */
 input::placeholder {
     color: #555;
     font-size: 16px; 
 }
-
+/*Styling for inputs focus state*/
 input:focus {
     border-bottom: 2px solid #00aaff;
 }
-
+/*Stlying for buttons*/
 button {
     background-color: #00aaff;
     color: #ffffff;
@@ -79,11 +80,11 @@ button {
     font-size: 16px;
     margin-top: 20px;
 }
-
+/*Styling for button hoover effect*/
 button:hover {
     background-color: #0099cc;
 }
-
+/*Styling for result message */
 #result {
     margin-top: 20px;
     background-color: #1d1d1d; 
@@ -97,7 +98,7 @@ button:hover {
     font-size: 20px;
     color: #ffffff;
 }
-
+/*Styling for privacy policy message */
 #privacy-policy {
     background-color: #1d1d1d; 
     padding: 20px;
@@ -106,7 +107,7 @@ button:hover {
     color: #ffffff;
     text-align: left;
 }
-
+/*Styling for privacy policy buttons*/
 #showPrivacyPolicy,
 #hidePrivacyPolicy {
     background-color: #00aaff;
@@ -119,22 +120,22 @@ button:hover {
     font-size: 16px;
     margin-top: 20px;
 }
-
+/*Styling for privacy button hover effect*/
 #showPrivacyPolicy:hover,
 #hidePrivacyPolicy:hover {
     background-color: #0099cc;
 }
-
+/*CSS rule to hide elements with class hidden*/
 .hidden {
     display: none;
 }
-
+/*Syling for span with specific styles*/
 span {
     color: #00aaff;
     font-style: italic;
     font-weight: bold;
 }
-
+/*Styling for the header section*/
 header {
     background-color: #00aaff; 
     padding: 18px;
